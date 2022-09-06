@@ -12,30 +12,30 @@
 	"display": "standalone",
 	"orientation": "any",
 
-	"background_color": "#333333",
-	"theme_color": "#7dc36b",
+	"background_color": "#16161A",
+	"theme_color": "#16161A",
 
 	"icons": [
 		{
-			"src": "./img/icons/#",
+			"src": "https://benjaminperonne.fr/img/favicons/Square_BPdev_logo.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "any"
 		},
 		{
-			"src": "./img/icons/#",
+			"src": "https://benjaminperonne.fr/img/favicons/Square_BPdev_logo.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "any"
 		},
 		{
-			"src": "./img/icons/#",
+			"src": "https://benjaminperonne.fr/img/favicons/Square_BPdev_logo.png",
 			"sizes": "192x192",
 			"type": "image/png",
 			"purpose": "maskable"
 		},
 		{
-			"src": "./img/icons/#",
+			"src": "https://benjaminperonne.fr/img/favicons/Square_BPdev_logo.png",
 			"sizes": "512x512",
 			"type": "image/png",
 			"purpose": "maskable"

@@ -3,7 +3,7 @@ const useragent = require("express-useragent");
 const fileUpload = require("express-fileupload");
 const compression = require("compression");
 const fs = require("fs");
-const https = require('https');
+const https = require('https'); 
 
 const ip = require("ip");
 
@@ -16,6 +16,8 @@ const package = require('../package.json');
 const manifest = require('../public/manifest.json');
 const domain = new URL(manifest.related_applications[0].url).hostname;
 const dev_mode = process.env.NODE_ENV === 'development';
+
+// const mysql = require('mysql'); // Create a MySQL connection 
 
 
 // // // // // // // // // // // // // // //
@@ -94,7 +96,7 @@ route(app);
 
 // // // // // // // // // // // // // // //
 
-let port = 8001;
+let port = 8002;
 let port_color = colors.yellow;
 
 // If in prod, use proxy's config port

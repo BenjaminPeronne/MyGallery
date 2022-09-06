@@ -41,6 +41,7 @@
 		"express-useragent": "^1.0.15",
 		"image-data-uri": "^1.0.0",
 		"ip": "^1.1.5",
+		"mysql": "^2.18.1",
 		"nodemon": "^2.0.7"
 	}
 }

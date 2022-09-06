@@ -3,8 +3,8 @@
 const use_cache = true;
 const cache_domains = ['localhost', 'benjaminperonne.fr'];
 
-const badge = '/img/icons/#';
-const icon = '/img/icons/#';
+const badge = 'https://benjaminperonne.fr/img/favicons/Square_BPdev_logo.png';
+const icon = 'https://benjaminperonne.fr/img/favicons/Square_BPdev_logo.png';
 
 // Install event
 self.addEventListener('install', async e => {
